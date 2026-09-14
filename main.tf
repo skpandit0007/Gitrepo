@@ -1,5 +1,9 @@
 resource "azurerm_resource_group" "example" {
   name     = "rg-terraform-demo"
-  location = "west europe"
+<<<<<<< HEAD
+  location = "central india"
   
+=======
+  location = "east us"
+>>>>>>> feature
 }
